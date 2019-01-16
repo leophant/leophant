@@ -1,0 +1,22 @@
+{
+  "name": "leophant",
+  "version": "0.0.1",
+  "description": "An ORM for Node.js",
+  "license": "MIT",
+  "author": "onwd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leophant/leophant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leophant/leophant/issues"
+  },
+  "homepage": "https://github.com/leophant/leophant#readme",
+  "keywords": [
+    "orm"
+  ],
+  "main": "./lib/leophant.js",
+  "scripts": {
+    "test": "echo \"Not implemented\" && exit 1"
+  }
+}
