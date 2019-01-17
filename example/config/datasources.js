@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     "name": "db1",
     "dialect": "postgres",
@@ -26,4 +26,4 @@
     "username": "username",
     "password": "password"
   }
-]
+];
