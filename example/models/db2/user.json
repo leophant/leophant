@@ -1,5 +1,6 @@
 {
   "name": "User",
+  "table": "users",
   "properties": {
     "firstName": {
       "type": "string",

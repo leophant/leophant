@@ -1,5 +1,6 @@
 {
   "name": "File",
+  "table": "files",
   "properties": {
     "size": {
       "type": "number"
