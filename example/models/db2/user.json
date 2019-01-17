@@ -13,12 +13,5 @@
       "type": "string",
       "unique": true
     }
-  },
-  "relations": {
-    "files": {
-      "type": "hasMany",
-      "model": "File",
-      "foreignKey": "ownerId"
-    }
   }
 }

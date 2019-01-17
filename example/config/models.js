@@ -1,5 +1,10 @@
 module.exports = [
   {
+    "name": "File",
+    "dataSource": "db1",
+    "definition": require("../models/db1/file.json")
+  },
+  {
     "name": "User",
     "dataSource": "db1",
     "definition": require("../models/db1/user.json")

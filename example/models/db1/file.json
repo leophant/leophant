@@ -1,0 +1,11 @@
+{
+  "name": "File",
+  "properties": {
+    "size": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
