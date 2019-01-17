@@ -1,0 +1,24 @@
+{
+  "name": "User",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "column": "first_name"
+    },
+    "lastName": {
+      "type": "string",
+      "column": "last_name"
+    },
+    "email": {
+      "type": "string",
+      "unique": true
+    }
+  },
+  "relations": {
+    "files": {
+      "type": "hasMany",
+      "model": "File",
+      "foreignKey": "ownerId"
+    }
+  }
+}
