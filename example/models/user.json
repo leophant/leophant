@@ -16,6 +16,11 @@
     }
   },
   "relations": {
+    "role": {
+      "type": "hasOne",
+      "model": "Role",
+      "foreignKey": "userId"
+    },
     "files": {
       "type": "hasMany",
       "model": "File",

@@ -2,21 +2,16 @@ module.exports = [
   {
     "name": "File",
     "dataSource": "db1",
-    "definition": require("../models/db1/file.json")
+    "definition": require("../models/file.json")
   },
   {
-    "name": "User",
+    "name": "Role",
     "dataSource": "db1",
-    "definition": require("../models/db1/user.json")
+    "definition": require("../models/role.json")
   },
   {
     "name": "User",
     "dataSource": "db2",
-    "definition": require("../models/db2/user.json")
-  },
-  {
-    "name": "User",
-    "dataSource": "db3",
-    "definition": require("../models/db2/user.json")
+    "definition": require("../models/user.json")
   }
 ];

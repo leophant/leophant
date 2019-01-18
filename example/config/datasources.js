@@ -16,14 +16,5 @@ module.exports = [
     "database": "db2",
     "username": "username",
     "password": "password"
-  },
-  {
-    "name": "db3",
-    "dialect": "postgres",
-    "host": "localhost",
-    "port": 5432,
-    "database": "db3",
-    "username": "username",
-    "password": "password"
   }
 ];
