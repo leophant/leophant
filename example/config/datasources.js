@@ -1,7 +1,7 @@
 module.exports = [
   {
     "name": "db1",
-    "dialect": "postgres",
+    "connector": "postgres",
     "host": "localhost",
     "port": 5432,
     "database": "db1",
@@ -10,7 +10,7 @@ module.exports = [
   },
   {
     "name": "db2",
-    "dialect": "postgres",
+    "connector": "postgres",
     "host": "localhost",
     "port": 5432,
     "database": "db2",
