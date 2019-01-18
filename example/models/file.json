@@ -1,5 +1,6 @@
 {
   "name": "File",
+  "dataSource": "db1",
   "table": "files",
   "properties": {
     "size": {

@@ -1,5 +1,6 @@
 {
   "name": "Role",
+  "dataSource": "db1",
   "table": "roles",
   "properties": {
     "role": {

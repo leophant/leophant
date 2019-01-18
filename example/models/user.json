@@ -1,5 +1,6 @@
 {
   "name": "User",
+  "dataSource": "db2",
   "table": "users",
   "properties": {
     "firstName": {
