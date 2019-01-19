@@ -7,4 +7,4 @@ node_js:
   - 8
 
 script:
-  - npm run cover-unit && codecov
+  - npm run cover-unit
