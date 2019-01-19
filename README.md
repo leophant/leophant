@@ -2,6 +2,9 @@
   <img src="https://github.com/leophant/leophant/raw/master/resources/logo.png" width="250" height="250">
   <br>
   <br>
+  <a href="https://travis-ci.org/leophant/leophant">
+    <img src="https://travis-ci.org/leophant/leophant.svg?branch=master">
+  </a>
   <a href="https://david-dm.org/leophant/leophant">
     <img src="https://david-dm.org/leophant/leophant.svg">
   </a>
