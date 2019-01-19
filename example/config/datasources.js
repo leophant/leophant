@@ -1,7 +1,7 @@
 module.exports = [
   {
     "name": "db1",
-    "connector": "postgresql",
+    "connector": "mysql",
     "host": "localhost",
     "port": 5432,
     "database": "db1",
