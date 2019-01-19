@@ -18,7 +18,7 @@
   "main": "./lib/leophant.js",
   "scripts": {
     "test-unit": "mocha test/unit/**/*.js --check-leaks -R dot",
-    "cover-unit": "istanbul cover _mocha test/unit/**/*.js --reporter test -- -R dot && codecov"
+    "cover-unit": "istanbul cover _mocha test/unit/**/*.js --report lcovonly -- -R dot && codecov"
   },
   "dependencies": {
     "pg": "^7.8.0"
@@ -26,7 +26,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "codecov": "^3.1.0",
-    "istanbul": "^0.4.5",
+    "istanbul": "^1.1.0-alpha.1",
     "mocha": "^5.2.0"
   }
 }
