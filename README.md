@@ -20,3 +20,11 @@ Leophant is an ORM for Node.js.
 ```bash
 $ npm i leophant
 ```
+
+## Features on the roadmap
+
+- [ ] Support PostgreSQL
+- [ ] Support MySQL
+- [ ] Auto-discover models
+- [ ] Web-based model management tool
+- [ ] Cross-database queries
