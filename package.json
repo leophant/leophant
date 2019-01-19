@@ -17,7 +17,7 @@
   ],
   "main": "./lib/leophant.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/unit/**/*.js --check-leaks -R dot"
   },
   "dependencies": {
     "pg": "^7.8.0"

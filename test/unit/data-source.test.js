@@ -1,5 +1,5 @@
 const { expect }     = require('chai');
-const { DataSource } = require('./support');
+const { DataSource } = require('../support');
 
 describe('DataSource', () => {
   describe('connector is required', () => {
