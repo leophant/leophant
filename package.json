@@ -18,5 +18,8 @@
   "main": "./lib/leophant.js",
   "scripts": {
     "test": "echo \"Not implemented\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^7.8.0"
   }
 }
