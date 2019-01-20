@@ -29,7 +29,6 @@ describe('DataSource', () => {
       const dataSource = new DataSource(validDataSourceDefinition);
 
       const modelClass = dataSource.registerModel(validModelDefinition);
-      expect(modelClass).to.be.a('function');
       expect(modelClass.prototype).to.be.an.instanceOf(Model);
       expect(modelClass).to.equal(dataSource.models[validModelDefinition.name]);
     });
@@ -40,7 +39,7 @@ describe('DataSource', () => {
       const dataSource = new DataSource(validDataSourceDefinition);
 
       dataSource.registerModel(validModelDefinition);
-      expect(dataSource.models[validModelDefinition.name]).to.be.a('function');
+      expect(dataSource.models[validModelDefinition.name].prototype).to.be.an.instanceOf(Model);
 
       dataSource.unregisterModel(validModelDefinition.name);
       expect(dataSource.models[validModelDefinition.name]).to.be.undefined;
