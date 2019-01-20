@@ -13,7 +13,13 @@
   },
   "homepage": "https://github.com/leophant/leophant#readme",
   "keywords": [
-    "orm"
+    "leophant",
+    "orm",
+    "javascript",
+    "database",
+    "node",
+    "mysql",
+    "postgresql"
   ],
   "main": "./lib/leophant.js",
   "scripts": {
