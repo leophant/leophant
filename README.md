@@ -24,17 +24,17 @@ $ npm i leophant
 
 ## Features on the roadmap
 
-  - [ ] PostgreSQL connector
-  - [ ] MySQL connector
-  - [ ] Cross-database queries
-  - [ ] Core written using async/await
-  - [ ] JSON schema definition
-  - [ ] Autoupdate/automigrate schemas
-  - [ ] Discover models automatically
-  - [ ] 1:1, 1:N and M:N relations
-  - [ ] Through models
-  - [ ] Transactions
-  - [ ] Migrations
-  - [ ] Lifecycle events
-  - [ ] Web-based model management tool
-  - [ ] CLI
+- [ ] PostgreSQL connector
+- [ ] MySQL connector
+- [ ] Cross-database queries
+- [ ] Core written using async/await
+- [ ] JSON schema definition
+- [ ] Autoupdate/automigrate schemas
+- [ ] Discover models automatically
+- [ ] 1:1, 1:N and M:N relations
+- [ ] Through models
+- [ ] Transactions
+- [ ] Migrations
+- [ ] Lifecycle events
+- [ ] Web-based model management tool
+- [ ] CLI
