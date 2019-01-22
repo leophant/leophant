@@ -7,7 +7,6 @@
   <a href="https://codecov.io/gh/leophant/leophant"><img src="https://img.shields.io/codecov/c/gh/leophant/leophant.svg"></a>
   <a href="https://david-dm.org/leophant/leophant"><img src="https://david-dm.org/leophant/leophant/status.svg"></a>
   <a href="https://david-dm.org/leophant/leophant?type=dev"><img src="https://david-dm.org/leophant/leophant/dev-status.svg"></a>
-  <a href="http://stackoverflow.com/questions/tagged/leophant"><img src="https://img.shields.io/badge/stackoverflow-leophant-blue.svg"></a>
   <br>
   <br>
 </div>
@@ -16,7 +15,8 @@ Leophant is an ORM for Node.js.
 
 **Note**: Leophant is under active development and there is no working version of it available yet.
 
-[Example](https://github.com/leophant/leophant-example)
+[Example](https://github.com/leophant/leophant-example) &mdash;
+[Questions](https://stackoverflow.com/questions/tagged/leophant)
 
 ## Installation
 
