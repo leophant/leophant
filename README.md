@@ -18,12 +18,6 @@ Leophant is an ORM for Node.js.
 [Example](https://github.com/leophant/leophant-example) &mdash;
 [Questions](https://stackoverflow.com/questions/tagged/leophant)
 
-## Installation
-
-```bash
-$ npm i leophant
-```
-
 ## Features on the roadmap
 
 - [ ] PostgreSQL connector
@@ -40,3 +34,9 @@ $ npm i leophant
 - [ ] Lifecycle events
 - [ ] Web-based model management tool
 - [ ] CLI
+
+## Install
+
+```bash
+$ npm i leophant
+```
