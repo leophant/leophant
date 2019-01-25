@@ -1,6 +1,6 @@
 {
   "name": "leophant",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ORM for Node.js",
   "license": "MIT",
   "author": "onwd",
@@ -32,8 +32,8 @@
     "chai": "^4.2.0",
     "codecov": "^3.1.0",
     "istanbul": "^1.1.0-alpha.1",
-    "leophant-mysql": "0.0.7",
-    "leophant-postgresql": "0.0.7",
+    "leophant-mysql": "0.0.8",
+    "leophant-postgresql": "0.0.8",
     "mocha": "^5.2.0"
   }
 }
