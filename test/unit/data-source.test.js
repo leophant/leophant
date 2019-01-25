@@ -11,7 +11,8 @@ describe('DataSource', () => {
   describe('constructor', () => {
     it('should throw error when unsupported connector is supplied', () => {
       const definition = { ...validDataSourceDefinition, connector: 'unsupported' };
-      expect(dataSourceConstructor(definition)).to.throw(Error);
+      const expectedError = `Unsupported connector name passed: 'unsupported'. Please use one of: 'mysql', 'postgresql'.`;
+      expect(dataSourceConstructor(definition)).to.throw(expectedError);
     });
 
     it('should work when supported connector is supplied', () => {
