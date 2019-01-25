@@ -32,6 +32,7 @@ $ npm i leophant-mysql
 
 ## Features on the roadmap
 
+- [ ] Zero dependencies
 - [ ] PostgreSQL connector
 - [ ] MySQL connector
 - [ ] Cross-database queries
