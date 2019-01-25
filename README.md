@@ -22,6 +22,10 @@ Leophant is an ORM for Node.js.
 
 ```bash
 $ npm i leophant
+
+# Then install at least one connector:
+$ npm i leophant-postgresql
+$ npm i leophant-mysql
 ```
 
 ## Features on the roadmap
