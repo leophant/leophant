@@ -16,6 +16,8 @@ Leophant is an ORM for Node.js.
 **Note**: Leophant is under active development and there is no working version of it available yet.
 
 [Example](https://github.com/leophant/leophant-example) &mdash;
+[PostgreSQL connector](https://github.com/leophant/leophant-postgresql) &mdash;
+[MySQL connector](https://github.com/leophant/leophant-mysql) &mdash;
 [Questions](https://stackoverflow.com/questions/tagged/leophant)
 
 ## Install
