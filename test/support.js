@@ -1,8 +1,6 @@
 const DataSource = require('../lib/data-source');
 const Leophant   = require('../lib/leophant');
 const Model      = require('../lib/model');
-const initializeMySQLConnector      = require('../lib/connectors/mysql');
-const initializePostgreSQLConnector = require('../lib/connectors/postgresql');
 
 const validDataSourceDefinition = {
   name: 'db',
@@ -50,9 +48,6 @@ const Support = {
   DataSource,
   Leophant,
   Model,
-
-  initializeMySQLConnector,
-  initializePostgreSQLConnector,
 
   validDataSourceDefinition,
   validModelDefinition
