@@ -2,11 +2,11 @@
   <img src="https://github.com/leophant/leophant/raw/master/resources/logo.png" width="250" height="250">
   <br>
   <br>
-  <a href="https://travis-ci.org/leophant/leophant"><img src="https://travis-ci.org/leophant/leophant.svg?branch=master"></a>
+  <a href="https://travis-ci.org/leophant/leophant"><img src="https://img.shields.io/travis/leophant/leophant.svg"></a>
   <a href="https://lgtm.com/projects/g/leophant/leophant/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/g/leophant/leophant.svg"></a>
   <a href="https://codecov.io/gh/leophant/leophant"><img src="https://img.shields.io/codecov/c/gh/leophant/leophant.svg"></a>
-  <a href="https://david-dm.org/leophant/leophant"><img src="https://david-dm.org/leophant/leophant/status.svg"></a>
-  <a href="https://david-dm.org/leophant/leophant?type=dev"><img src="https://david-dm.org/leophant/leophant/dev-status.svg"></a>
+  <a href="https://david-dm.org/leophant/leophant"><img src="https://img.shields.io/david/leophant/leophant.svg"></a>
+  <a href="https://david-dm.org/leophant/leophant?type=dev"><img src="https://img.shields.io/david/dev/leophant/leophant.svg"></a>
   <br>
   <br>
 </div>
