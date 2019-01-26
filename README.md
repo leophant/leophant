@@ -33,11 +33,11 @@ $ npm i leophant-mysql
 ## Features on the roadmap
 
 - [x] Zero dependencies
+- [x] Core written using async/await
 - [ ] Discover models automatically
 - [ ] PostgreSQL connector
 - [ ] MySQL connector
 - [ ] Cross-database queries
-- [ ] Core written using async/await
 - [ ] JSON schema definition
 - [ ] Autoupdate/automigrate schemas
 - [ ] 1:1, 1:N and M:N relations
