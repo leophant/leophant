@@ -41,6 +41,7 @@ $ npm i leophant-mysql
 - [ ] JSON schema definition
 - [ ] Autoupdate/automigrate schemas
 - [ ] 1:1, 1:N and M:N relations
+- [ ] Polymorphic relations
 - [ ] Through models
 - [ ] Transactions
 - [ ] Migrations
