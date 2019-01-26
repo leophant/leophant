@@ -1,10 +1,11 @@
-const DataSource = require('../lib/data-source');
-const Leophant   = require('../lib/leophant');
-const Model      = require('../lib/model');
+const MySQLConnector = require('leophant-mysql');
+const DataSource     = require('../lib/data-source');
+const Leophant       = require('../lib/leophant');
+const Model          = require('../lib/model');
 
 const validDataSourceDefinition = {
   name: 'db',
-  connector: 'mysql',
+  connector: MySQLConnector,
   host: 'localhost',
   port: 5432,
   database: 'db',
