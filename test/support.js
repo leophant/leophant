@@ -2,6 +2,8 @@ const MySQLConnector = require('leophant-mysql');
 const DataSource     = require('../lib/data-source');
 const Leophant       = require('../lib/leophant');
 const Model          = require('../lib/model');
+const Property       = require('../lib/property');
+const Relation       = require('../lib/relation');
 
 const validDataSourceDefinition = {
   name: 'db',
@@ -45,13 +47,34 @@ const validModelDefinition = {
   }
 };
 
+const validPropertyName = 'email';
+
+const validPropertyDefinition = {
+  type: 'string',
+  unique: true
+};
+
+const validRelationName = 'files';
+
+const validRelationDefinition = {
+  type: 'hasMany',
+  model: 'File',
+  foreignKey: 'ownerId'
+};
+
 const Support = {
   DataSource,
   Leophant,
   Model,
+  Property,
+  Relation,
 
   validDataSourceDefinition,
-  validModelDefinition
+  validModelDefinition,
+  validPropertyName,
+  validPropertyDefinition,
+  validRelationName,
+  validRelationDefinition
 };
 
 module.exports = Support;
