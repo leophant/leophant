@@ -18,6 +18,34 @@ describe('Model', () => {
     });
   });
 
+  describe('init', () => {
+    it('should register properties passed via definition', () => {
+      const modelClass = Model.init({
+        properties: {
+          property1: validPropertyDefinition,
+          property2: validPropertyDefinition
+        }
+      });
+
+      expect(Object.keys(modelClass.properties)).to.have.lengthOf(2);
+      expect(modelClass.properties.property1).to.be.an.instanceOf(Property);
+      expect(modelClass.properties.property2).to.be.an.instanceOf(Property);
+    });
+
+    it('should register relations passed via definition', () => {
+      const modelClass = Model.init({
+        relations: {
+          relation1: validRelationDefinition,
+          relation2: validRelationDefinition
+        }
+      });
+
+      expect(Object.keys(modelClass.relations)).to.have.lengthOf(2);
+      expect(modelClass.relations.relation1).to.be.an.instanceOf(Relation);
+      expect(modelClass.relations.relation2).to.be.an.instanceOf(Relation);
+    });
+  });
+
   describe('registerProperty', () => {
     it('should register a Property and return it', () => {
       const modelClass = Model.init(validModelDefinition);
