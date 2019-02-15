@@ -4,9 +4,7 @@ const {
   Property,
   Relation,
   validModelDefinition,
-  validPropertyName,
   validPropertyDefinition,
-  validRelationName,
   validRelationDefinition
 } = require('../support');
 
@@ -50,9 +48,9 @@ describe('Model', () => {
     it('should register a Property and return it', () => {
       const modelClass = Model.init(validModelDefinition);
 
-      const property = modelClass.registerProperty(validPropertyName, validPropertyDefinition);
+      const property = modelClass.registerProperty(validPropertyDefinition);
       expect(property).to.be.an.instanceOf(Property);
-      expect(property).to.equal(modelClass.properties[validPropertyName]);
+      expect(property).to.equal(modelClass.properties[validPropertyDefinition.name]);
     });
   });
 
@@ -60,11 +58,11 @@ describe('Model', () => {
     it('should unregister a Property', () => {
       const modelClass = Model.init(validModelDefinition);
 
-      modelClass.registerProperty(validPropertyName, validPropertyDefinition);
-      expect(modelClass.properties[validPropertyName]).to.be.an.instanceOf(Property);
+      modelClass.registerProperty(validPropertyDefinition);
+      expect(modelClass.properties[validPropertyDefinition.name]).to.be.an.instanceOf(Property);
 
-      modelClass.unregisterProperty(validPropertyName);
-      expect(modelClass.properties[validPropertyName]).to.be.undefined;
+      modelClass.unregisterProperty(validPropertyDefinition.name);
+      expect(modelClass.properties[validPropertyDefinition.name]).to.be.undefined;
     });
   });
 
@@ -72,9 +70,9 @@ describe('Model', () => {
     it('should register a Relation and return it', () => {
       const modelClass = Model.init(validModelDefinition);
 
-      const relation = modelClass.registerRelation(validRelationName, validRelationDefinition);
+      const relation = modelClass.registerRelation(validRelationDefinition);
       expect(relation).to.be.an.instanceOf(Relation);
-      expect(relation).to.equal(modelClass.relations[validRelationName]);
+      expect(relation).to.equal(modelClass.relations[validRelationDefinition.name]);
     });
   });
 
@@ -82,11 +80,11 @@ describe('Model', () => {
     it('should unregister a Relation', () => {
       const modelClass = Model.init(validModelDefinition);
 
-      modelClass.registerRelation(validRelationName, validRelationDefinition);
-      expect(modelClass.relations[validRelationName]).to.be.an.instanceOf(Relation);
+      modelClass.registerRelation(validRelationDefinition);
+      expect(modelClass.relations[validRelationDefinition.name]).to.be.an.instanceOf(Relation);
 
-      modelClass.unregisterRelation(validRelationName);
-      expect(modelClass.relations[validRelationName]).to.be.undefined;
+      modelClass.unregisterRelation(validRelationDefinition.name);
+      expect(modelClass.relations[validRelationDefinition.name]).to.be.undefined;
     });
   });
 });

@@ -47,16 +47,14 @@ const validModelDefinition = {
   }
 };
 
-const validPropertyName = 'email';
-
 const validPropertyDefinition = {
+  name: 'email',
   type: 'string',
   unique: true
 };
 
-const validRelationName = 'files';
-
 const validRelationDefinition = {
+  name: 'files',
   type: 'hasMany',
   model: 'File',
   foreignKey: 'ownerId'
@@ -71,9 +69,7 @@ const Support = {
 
   validDataSourceDefinition,
   validModelDefinition,
-  validPropertyName,
   validPropertyDefinition,
-  validRelationName,
   validRelationDefinition
 };
 
