@@ -24,7 +24,7 @@ describe('DataSource', () => {
     it('should work when supported connector is supplied', () => {
       const supportedConnectors = [MySQLConnector, PostgreSQLConnector];
 
-      for(const connector of supportedConnectors) {
+      for (const connector of supportedConnectors) {
         const definition = { ...validDataSourceDefinition, connector };
         expect(dataSourceConstructor(definition)).not.to.throw(Error);
       }
