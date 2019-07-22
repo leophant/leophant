@@ -33,7 +33,7 @@
     "codecov": "^3.5.0",
     "leophant-mysql": "0.0.8",
     "leophant-postgresql": "0.0.8",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "nyc": "^14.1.1"
   }
 }
