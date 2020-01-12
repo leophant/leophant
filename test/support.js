@@ -48,15 +48,14 @@ const validModelDefinition = {
 };
 
 const validPropertyDefinition = {
-  name: 'email',
-  type: 'string',
-  unique: true
+  name: 'password',
+  type: 'string'
 };
 
 const validRelationDefinition = {
-  name: 'files',
+  name: 'posts',
   type: 'hasMany',
-  model: 'File',
+  model: 'Post',
   foreignKey: 'ownerId'
 };
 
